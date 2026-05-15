@@ -1,5 +1,8 @@
 # cloudmesh-ai-{{name}}
 
+**Quick Links:**
+- [API Reference](API.md) - Full technical documentation of all modules.
+
 This is a CMC extension for Cloudmesh AI.
 
 ## Installation

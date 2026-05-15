@@ -10,7 +10,7 @@ extra_css:
   - css/custom.css
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Documentation:
       - User Guide: user.md
       - IO: io.md

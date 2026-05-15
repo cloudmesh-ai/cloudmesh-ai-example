@@ -4,19 +4,19 @@ from cloudmesh.ai.common.logging_utils import get_contextual_logger
 from cloudmesh.ai.common.telemetry import Telemetry
 
 # Initialize Logger and Telemetry
-logger = get_contextual_logger("{{name}}")
-telemetry = Telemetry("{{name}}")
+logger = get_contextual_logger("example")
+telemetry = Telemetry("example")
 
 # Define the group for the command
-{{name}}_group = click.group(name="{{name}}")
+example_group = click.group(name="example")
 
-@{{name}}_group.command(name="hello")
+@example_group.command(name="hello")
 def hello_cmd():
-    """Hello command for {{name}}."""
+    """Hello command for example."""
     logger.info("Executing hello command")
-    console.ok(f"Hello from {{name}}!")
+    console.ok(f"Hello from example!")
 
-@{{name}}_group.command(name="test-path")
+@example_group.command(name="test-path")
 @click.argument("path")
 def test_path_cmd(path):
     """Example command showing path expansion."""
@@ -24,5 +24,5 @@ def test_path_cmd(path):
     console.info(f"Expanded path: {expanded}")
 
 def register(cli):
-    """Registers the {{name}} command group to the main CLI."""
-    cli.add_command({{name}}_group)
+    """Registers the example command group to the main CLI."""
+    cli.add_command(example_group)

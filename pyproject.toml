@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cloudmesh-ai-{{name}}"
+name = "cloudmesh-ai-example"
 version = "0.1.0"
-description = "{{name}} command for Cloudmesh AI"
+description = "example command for Cloudmesh AI"
 readme = "README.md"
 license = "Apache-2.0"
 urls = { "Homepage" = "https://github.com/cloudmesh-ai/cloudmesh-ai-example" }
@@ -23,4 +23,4 @@ dependencies = [
 ]
 
 [project.entry-points."cloudmesh.ai.cmc"]
-{{name}} = "cloudmesh.ai.command.{{name}}:register"
+example = "cloudmesh.ai.command.example:register"

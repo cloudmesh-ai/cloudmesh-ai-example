@@ -1,3 +1,4 @@
+--- Commit 18a3e93 ---
 # Cloudmesh AI Git Extension
 
 **Quick Links:**
@@ -198,3 +199,70 @@ Examples:
 This project depends on the following core components of the Cloudmesh AI ecosystem:
 - [cloudmesh-ai-common](https://github.com/cloudmesh-ai/cloudmesh-ai-common)
 - [cloudmesh-ai-cmc](https://github.com/cloudmesh-ai/cloudmesh-ai-cmc)
+
+==============
+
+--- Commit 3063ee1 ---
+# cloudmesh-ai-{{name}}
+
+**Quick Links:**
+- [API Reference](API.md) - Full technical documentation of all modules.
+
+This is a CMC extension for Cloudmesh AI.
+
+## Installation
+
+```bash
+pip install .
+```
+
+## Usage
+
+```bash
+cmc {{name}} hello
+## Core Dependencies
+This project depends on the following core components of the Cloudmesh AI ecosystem:
+- [cloudmesh-ai-common](https://github.com/cloudmesh-ai/cloudmesh-ai-common)
+- [cloudmesh-ai-cmc](https://github.com/cloudmesh-ai/cloudmesh-ai-cmc)
+
+==============
+
+--- Commit 7eafbc6 ---
+# cloudmesh-ai-{{name}}
+
+This is a CMC extension for Cloudmesh AI.
+
+## Installation
+
+```bash
+pip install .
+```
+
+## Usage
+
+```bash
+cmc {{name}} hello
+## Core Dependencies
+This project depends on the following core components of the Cloudmesh AI ecosystem:
+- [cloudmesh-ai-common](https://github.com/cloudmesh-ai/cloudmesh-ai-common)
+- [cloudmesh-ai-cmc](https://github.com/cloudmesh-ai/cloudmesh-ai-cmc)
+
+==============
+
+--- Commit 95d5815 ---
+# cloudmesh-ai-{{name}}
+
+This is a CMC extension for Cloudmesh AI.
+
+## Installation
+
+```bash
+pip install .
+```
+
+## Usage
+
+```bash
+cmc {{name}} hello
+==============
+

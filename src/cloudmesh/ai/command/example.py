@@ -25,4 +25,4 @@ def test_path_cmd(path):
 
 def register(cli):
     """Registers the example command group to the main CLI."""
-    cli.add_command(example_group)
+    cli.add_command(example_group),

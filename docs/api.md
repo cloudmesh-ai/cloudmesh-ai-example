@@ -1,7 +1,7 @@
-# cloudmesh-ai-example API Reference
+# cloudmesh-ai-{{name}} API Reference
 
-This page provides the API reference for the `cloudmesh-ai-example` library.
+This page provides the API reference for the `cloudmesh-ai-{{name}}` library.
 
 ## API Documentation
 
-::: cloudmesh.ai.command.example
+::: cloudmesh.ai.command.{{name}}

@@ -31,4 +31,4 @@ category = "foundation"
 status = "stable"
 order = 30
 essential = true
-readme = "A template to create a new command for Cloudmesh AI. This command is generated using the `cmc generat command`  and serves as a starting point for developing new commands within the Cloudmesh AI ecosystem."
+readme = "A template to create a new command for Cloudmesh AI. This command is generated using the `cmc generate command` and serves as a starting point for developing new commands within the Cloudmesh AI ecosystem."

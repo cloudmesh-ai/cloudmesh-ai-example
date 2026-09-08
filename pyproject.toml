@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cloudmesh-ai-{{name}}"
+name = "cloudmesh-ai-example"
 version = "0.1.0"
-description = "{{name}} command for Cloudmesh AI"
+description = "example command for Cloudmesh AI"
 readme = "README.md"
 license = "Apache-2.0"
-urls = { "Homepage" = "https://github.com/cloudmesh-ai/cloudmesh-ai-{{name}}" }
+urls = { "Homepage" = "https://github.com/cloudmesh-ai/cloudmesh-ai-example" }
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: System Administrators",
@@ -20,8 +20,15 @@ classifiers = [
 requires-python = ">=3.10"
 dependencies = [
     "cloudmesh-ai-common",
-    "cloudmesh-ai-theme",
 ]
 
 [project.entry-points."cloudmesh.ai.cmc"]
-{{name}} = "cloudmesh.ai.command.{{name}}.{{name}}_group"
+"example" = "cloudmesh.ai.command.example.example_group"
+
+
+[tool.cloudmesh-ai]
+category = "foundation"
+status = "stable"
+order = 99
+essential = true
+readme = "A template to create a new command for Cloudmesh AI. This command is generated using the `cmc generat command`  and serves as a starting point for developing new commands within the Cloudmesh AI ecosystem."
